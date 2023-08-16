@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+header, body {
+	background-color: #1A7FBD;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+/*header*/
+
+header nav {
+	text-align: center;
+	padding-top: 30px;
+	vertical-align: middle;
+
+}
+
+header img {
+	padding-right: 50px;
+}
+
+header a {
+	padding-left:35px;
+	padding-right:35px ;
+	text-decoration: none;	
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.03em;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	
+
+
+}
+
+header button {
+	background-color: black;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left:50px ;
+	border: 0px;
+	border-radius: 6px;
+	text-decoration: none;	
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.03em;
+	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+nav hr {
+	margin-top: 30px;
+  	background: linear-gradient(to right, #1A7FBD, white, #1A7fbd);
+  	height: 1px;
+  	border: 0px;
+}
+
+div#banner{
+	margin: 0px;
+	height: 700px;
+	display: inline-block;
+	width: 100%;
+	vertical-align: initial;
+
+}
+
+div#bn-img img{
+	width: 75%;
+	margin: 0px;
+	position: absolute;
+	z-index: -1;
+}
+
+div#bn-form{
+    background-color: white;
+    width: 400px;
+    margin: 54px 0px 0px 948px;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+    padding: 19px 30px 70px 30px;
+    border-radius: 10px;
+}
+
+
+
+/*Formulário*/
+
+h2#form-title{
+	color: #cecece;
+	font-family: 'Noto Sans', sans-serif;
+	
+}
+
+p#form-descricao{
+	color: #1A7FBD;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+
+}
+
+p#form-textocampos{
+	font-family: 'Noto Sans', sans-serif;
+	color: #1A7FBD;
+	font-size: 11px;
+	text-align: center;
+}
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: inherit;
+    font-size: 11px;
+    padding: 10px;
+    width: 95%;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-bottom: -3px;
+    background-color: #FBFBFB;
+    stroke: #cecece;
+    border-color: #cecece;
+    border-width: thin;
+}
+
+#form-interna{
+	background-color: #1A7FBD;
+    margin-top: 10px;
+    padding: 12px;
+    margin-left: -31px;
+    margin-right: -31px;
+    color: white;
+}
+
+#form-interna2{
+	padding-top: 10px;
+	padding-bottom:10px ;
+}
+
+#form-interna2 legend{
+	color:#1A7FBD;
+	font-weight: bold;
+
+}
+
+p#form-disclaimer{
+	color: #9A9A9A;
+	font-size: 12px;
+}
+
+input[type='button']{
+	margin-top: 20px;
+	margin-left: auto;
+    margin-right: auto; 
+	background-color: #1A7FBD;
+	color: white;
+	width: 400px;
+	height: 50px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	border: 0px;
+	border-radius: 5px;
+	text-align: center;
+
+
+}
+
+input.checkbox {
+	padding-left: 10px ;
+}
+
+input[type='checkbox'] {
+      position: relative;
+      cursor: pointer;
+      margin: 10px;
+ }
+ input[type='checkbox']:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 50%;
+      left: 50%;
+      background-color: inherit;
+      outline: 1px rgba(255, 255, 255, 0.2) solid;
+      transform: translate(-50%, -50%);
+ }
+ input[type='checkbox']:checked:before {     
+      content: '';
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 50%;
+      left: 50%;
+      background-color: inherit;
+      outline: 1px rgba(255, 255, 255, 0.2) solid;
+      transform: translate(-50%, -50%);
+      box-shadow: 0px 0px 4px 1px #fff;
+ }
+ input[type='checkbox']:checked:after {
+      content: '';
+      display: block;
+      width: 6px;
+      height: 10px;
+      border: solid;
+      border-width: 0 2px 2px 0;
+      border-color: inherit;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+ }
+
+div#sessao-projeto{
+	margin-top: 200px;
+	height: 600px;
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+ div#proj-img img{
+	width: 80%;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	z-index: -1;
+}
+
+div#proj-text{
+    width: 400px;
+    margin: 54px 0px 0px 848px;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+    padding: 19px 30px 70px 30px;
+    color: white;
+}
+
+h1#proj-title {
+	color: #A4DCFF;
+}
+
+
+/*Sessao Problema*/
+
+div#sessao-problema{
+	padding-top: 26px;
+    background-color: white;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+div#probl-img img{
+	width: 30%;
+    margin: 0px 0px 0px 250px;
+    position: absolute;
+}
+
+div#probl-text{
+ 	width: 400px;
+    margin: 54px 0px 0px 848px;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+    padding: 19px 30px 70px 30px;
+}
+
+div#sessao-problema-box{
+	background-color: white;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+div#problema-box{
+	position: absolute;
+    background-color: white;
+    border: 1px;
+    border-color: black;
+    width: 327px;
+    height: 228px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 101px;
+    box-shadow: 2px 2px 50px #88888859;
+
+}
+
+div#problema-box2{
+	position: absolute;
+    background-color: white;
+    border: 1px;
+    border-color: black;
+    width: 327px;
+    height: 228px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 2px 2px 50px #88888859;
+    margin: 0px 526px 0px;
+
+
+}
+div#problema-box3{
+	position: absolute;
+    background-color: white;
+    border: 1px;
+    border-color: black;
+    width: 327px;
+    height: 228px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 2px 2px 50px #88888859;
+    margin: 0 951px;
+}
+
+}
+
+h1#pobl-titulo{
+	background: -webkit-linear-gradient(#1A7FBD, #A4DCFF);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
